@@ -203,7 +203,7 @@ module Fog
                   'router:external'       => false,
                   'admin_state_up'        => true,
                   'qos_policy_id'         => qos_policy_id,
-                  'port_security_enabled' => 'port_security_enabled'
+                  'port_security_enabled' => true
                 },
                 'e624a36d-762b-481f-9b50-4154ceb78bbb' => {
                   'id'              => 'e624a36d-762b-481f-9b50-4154ceb78bbb',
